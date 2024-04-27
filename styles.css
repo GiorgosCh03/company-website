@@ -1,17 +1,11 @@
-
-<!--type-selector-->
-
-
-
+/* type selector*/
 h1 {
  color:rgb(128, 113, 83);
  text-align: center;
  
 }
 
-
-<!--class-selector -->
-
+/* class selector*/
 .navbar{
     color:rgb(138, 219, 179);
     
@@ -26,6 +20,20 @@ h1 {
     
 }
 
+/* id selector*/
 #first-paragraph{
     background-color: bisque;
 }
+
+/* descendant combr*/
+.first-section .fist-section-article #e{ text-decoration:underline; border-bottom: 2px solid rgb(0, 255, 89);;}
+
+/* next sibling comb*/
+.footer-article h3+p{ color: rgb(255, 0, 204);}
+
+
+/* child comb*/
+ #about> p{border-top: 2px solid rgb(0, 255, 89); }
+
+ /* subsequent sibling comb*/
+.first-section .fist-section-article h2~p{font-weight: bold;}
